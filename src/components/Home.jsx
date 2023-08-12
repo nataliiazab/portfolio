@@ -4,7 +4,6 @@ import { TypeAnimation } from "react-type-animation";
 import LinkedIn from "../assets/social-media-icons/LinkedIn.svg";
 import GitHub from "../assets/social-media-icons/GitHub.svg";
 
-
 const Home = () => {
   return (
     <div className="hero h-screen flex items-center justify-center">
@@ -23,8 +22,6 @@ const Home = () => {
             1000,
             "JavaScript Developer",
             1000,
-            "Your Future Teammate 🤞",
-            3000,
           ]}
           wrapper="span"
           speed={50}
@@ -33,20 +30,10 @@ const Home = () => {
           className="font-semibold text-transparent leading-10 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
         />
         <p className="text-light text-xl my-8">
-          I am a passionate fullstack developer with a background in project
-          management. I have always been fascinated by technology, and my love
-          for it only grew stronger when I moved to London last year. I knew
-          that I wanted to make a career in tech, so I enrolled in several
-          online courses and completed an intense fullstack development
-          bootcamp. During my bootcamp, I collaborated with a team of developers
-          to create an app that was so successful that Code Your Future
-          implemented it as a part of their final project assessment toolset. My
-          teammates would say that I am a quick learner with exceptional
-          critical thinking and problem-solving skills. They also say that I am
-          easy to work with and always willing to help others. I am currently
-          looking for an entry-level fullstack developer role where I can use my
-          skills and passion to create innovative solutions to complex problems
-          as well as learn and grow.
+          I am a full-stack web developer with a passion for learning. I believe
+          in the power of technology and the power of solving problems. I am
+          passionate about creating and solving problems that make a difference.
+          
         </p>
         <button className="btn py-4 px-16">Projects</button>
       </div>
