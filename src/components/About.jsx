@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Headline from "../shared/Headline";
+import skills from "../../public/skills.js";
 
 const About = () => {
   return (
@@ -16,8 +17,8 @@ const About = () => {
       <div className="flex flex-col md:flex-row items-start justify-start">
         {/*left side*/}
         <div className="md:w-1/2 my-8">
-          <h4>Get to know me!</h4>
-          <div className="md:10/12 text-lg text-[#666] mb-8">
+          <h4 className="text-2xl font-bold mb-8">Get to know me!</h4>
+          <div className="md:w-10/12 text-lg text-[#666] mb-8">
             <p className="mb-5">
               I am a passionate <strong>Fullstack Developer</strong> with a
               background in project management.
@@ -42,12 +43,33 @@ const About = () => {
               I am currently looking for an entry-level Fullstack Developer role
               where I can use my skills and{" "}
               <strong>passion to create innovative solutions</strong> to complex
-              problems as well as learn and grow. I am always happy to connect with fellow professionals on <a href="https://www.linkedin.com/feed/" className="text-secondary font-bold underline"> LinkedIn</a>!
+              problems as well as learn and grow. I am always happy to connect
+              with fellow professionals on{" "}
+              <a
+                href="https://www.linkedin.com/feed/"
+                className="text-secondary font-bold underline"
+              >
+                {" "}
+                LinkedIn
+              </a>
+              !
             </p>
           </div>
         </div>
         {/*right side*/}
-        <div className="md:w-1/2 my-8">Right side</div>
+        <div className="md:w-1/2 my-8">
+          <h4 className="text-2xl font-bold mb-8">My Skills</h4>
+          <div className="flex flex-wrap gap-3 md:w-10/12">
+            {skills.map((skill) => (
+              <p
+                key={skill.id}
+                className="bg-slate-300 text-light py-2 px-4 rounded"
+              >
+                {skill.title}
+              </p>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
