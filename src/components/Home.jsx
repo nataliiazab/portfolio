@@ -1,6 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import LinkedIn from "../assets/social-media-icons/LinkedIn.svg";
+import GitHub from "../assets/social-media-icons/GitHub.svg";
+
 
 const Home = () => {
   return (
@@ -21,7 +24,7 @@ const Home = () => {
             "JavaScript Developer",
             1000,
             "Your Future Teammate 🤞",
-            2000,
+            3000,
           ]}
           wrapper="span"
           speed={50}
@@ -46,6 +49,26 @@ const Home = () => {
           as well as learn and grow.
         </p>
         <button className="btn py-4 px-16">Projects</button>
+      </div>
+
+      {/*hero social-media*/}
+      <div className="bg-white w-20 rounded py-1 px-2 absolute left-0 top-48 hidden md:block">
+        <div className="py-1">
+          <a
+            href="https://www.linkedin.com/in/nataliia-zablotska/"
+            className="p-3 hover:bg-slate-400 block rounded transition-all duration-500"
+          >
+            <img src={LinkedIn} alt="LinkedIn" className="w-10 h-10" />
+          </a>
+        </div>
+        <div className="py-1">
+          <a
+            href="https://github.com/nataliiazab"
+            className="p-3 hover:bg-slate-400 block rounded transition-all duration-500"
+          >
+            <img src={GitHub} alt="gitHub" className="w-10 h-10" />
+          </a>
+        </div>
       </div>
     </div>
   );
