@@ -34,5 +34,5 @@ const Projects = () => {
 
 export default Projects;
 
-// Task: instead of template projects, to add my peronal projects to "../../public/projects.js";
+
 //continue from 1:02:00

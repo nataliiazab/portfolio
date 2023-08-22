@@ -36,7 +36,7 @@ const About = () => {
             <p className="mb-5">
               My teammates would say that I am a <strong>quick learner</strong>{" "}
               with exceptional <strong>critical thinking</strong> and
-              <strong>problem-solving</strong> skills. They also say that I am
+              <strong> problem-solving</strong> skills. They also say that I am
               easy to work with and always willing to help others.
             </p>
             <p className="mb-5">
