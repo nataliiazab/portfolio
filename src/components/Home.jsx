@@ -30,10 +30,10 @@ const Home = () => {
           className="font-semibold text-transparent leading-10 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
         />
         <p className="text-light text-xl my-8">
-          I am a full-stack web developer with a passion for learning. I believe
-          in the power of technology and the power of solving problems. I am
-          passionate about creating and solving problems that make a difference.
-          
+          I am a full-stack web developer with a passion for lifelong
+          learning. I believe in the power of technology and the power
+          of solving problems. I am passionate about creating solutions that
+          make a difference.
         </p>
         <button className="btn py-4 px-16">Projects</button>
       </div>
