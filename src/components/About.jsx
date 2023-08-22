@@ -2,6 +2,10 @@
 import React from "react";
 import Headline from "../shared/Headline";
 import skills from "../../public/skills.js";
+//motion animation
+import {motion} from 'framer-motion';
+//variants 
+import {fadeIn} from '../variants';
 
 const About = () => {
   return (

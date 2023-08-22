@@ -20,7 +20,7 @@ const Footer = () => {
         {/*social icons */}
         <div className="my-3">
           <h4 className="text-white font-bold text-2xl tracking-white">
-            SOCIAL
+            SOCIAL MEDIA
           </h4>
           <div className="mt-5 flex gap-3">
             <a

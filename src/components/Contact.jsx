@@ -1,6 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Headline from "../shared/Headline";
+//motion animation
+import {motion} from 'framer-motion';
+//variants 
+import {fadeIn} from '../variants';
 
 const Contact = () => {
   return (

@@ -2,6 +2,10 @@
 import React from "react";
 import Headline from "../shared/Headline";
 import projects from "../../public/projects.js";
+//motion animation
+import {motion} from 'framer-motion';
+//variants 
+import {fadeIn} from '../variants';
 
 const Projects = () => {
   return (
@@ -36,3 +40,4 @@ export default Projects;
 
 
 
+//1:22:00?
