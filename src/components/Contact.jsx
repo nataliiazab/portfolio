@@ -2,13 +2,20 @@
 import React from "react";
 import Headline from "../shared/Headline";
 //motion animation
-import {motion} from 'framer-motion';
-//variants 
-import {fadeIn} from '../variants';
+import { motion } from "framer-motion";
+//variants
+import { fadeIn } from "../variants";
 
 const Contact = () => {
   return (
-    <div className="contact mx-auto mt-8 px-7">
+    <motion.div
+      className="contact mx-auto mt-8 px-7"
+      id="contact"
+      variants={fadeIn("right", 0.2)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.2 }}
+    >
       <Headline
         title={"CONTACT"}
         subtitle={
@@ -48,7 +55,7 @@ const Contact = () => {
           <button className="btn px-14 py-4 shadow-sm">Submit</button>
         </form>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

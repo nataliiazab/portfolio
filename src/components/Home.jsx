@@ -12,43 +12,42 @@ const Home = () => {
   return (
     <div className="hero h-screen flex items-center justify-center" id="home">
       <div className="text-center md:w-1/2">
-      <motion.div
-      variants={fadeIn("up", 0.3)}
-      initial="hidden"
-      whileInView={"show"}
-      viewport={{once:false, amount:0.7}}
-      className="text-center md:w-1/2">
-        
-        <h1 className="text-primary text-5xl font-extrabold tracking-wider mb-8">
-          {" "}
-          HEY, I'M NATALIE ZABLOTSKA
-        </h1>
-        <TypeAnimation
-          sequence={[
-            "Fullstack Developer",
-            1000,
-            "Software Engineer",
-            1000,
-            "React Developer",
-            1000,
-            "JavaScript Developer",
-            1000,
-          ]}
-          wrapper="span"
-          speed={50}
-          style={{ fontSize: "2rem", display: "inline-block" }}
-          repeat={Infinity}
-          className="font-semibold text-transparent leading-10 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
-        />
-        <p className="text-light text-xl my-8">
-          I am a full-stack web developer with a passion for lifelong learning.
-          I believe in the power of technology and the power of solving
-          problems. I am passionate about creating solutions that make a
-          difference.
-        </p>
-        <button className="btn py-4 px-16">Projects</button>
-     
-      </motion.div>
+        <motion.div
+          className="text-center md:w-1/2"
+          variants={fadeIn("up", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
+          <h1 className="text-primary text-5xl font-extrabold tracking-wider mb-8">
+            {" "}
+            HEY, I'M NATALIE ZABLOTSKA
+          </h1>
+          <TypeAnimation
+            sequence={[
+              "Fullstack Developer",
+              1000,
+              "Software Engineer",
+              1000,
+              "React Developer",
+              1000,
+              "JavaScript Developer",
+              1000,
+            ]}
+            wrapper="span"
+            speed={50}
+            style={{ fontSize: "2rem", display: "inline-block" }}
+            repeat={Infinity}
+            className="font-semibold text-transparent leading-10 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
+          />
+          <p className="text-light text-xl my-8">
+            I am a full-stack web developer with a passion for lifelong
+            learning. I believe in the power of technology and the power of
+            solving problems. I am passionate about creating solutions that make
+            a difference.
+          </p>
+          <button className="btn py-4 px-16">Projects</button>
+        </motion.div>
       </div>
       {/*hero social-media*/}
       <div className="bg-white w-20 rounded py-1 px-2 absolute left-0 top-48 hidden md:block">

@@ -3,13 +3,13 @@ import React from "react";
 import Headline from "../shared/Headline";
 import skills from "../../public/skills.js";
 //motion animation
-import {motion} from 'framer-motion';
-//variants 
-import {fadeIn} from '../variants';
+import { motion } from "framer-motion";
+//variants
+import { fadeIn } from "../variants";
 
 const About = () => {
   return (
-    <div className="max-w-7xl mx-auto my-14 md:py-8 px-7">
+    <div className="max-w-7xl mx-auto my-14 md:py-8 px-7" id="about">
       <Headline
         title={"ABOUT ME"}
         subtitle={
@@ -20,7 +20,13 @@ const About = () => {
       {/*About content*/}
       <div className="flex flex-col md:flex-row items-start justify-start">
         {/*left side*/}
-        <div className="md:w-1/2 my-8">
+        <motion.div
+          className="md:w-1/2 my-8"
+          variants={fadeIn("right", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <h4 className="text-2xl font-bold mb-8">Get to know me!</h4>
           <div className="md:w-10/12 text-lg text-[#666] mb-8">
             <p className="mb-5">
@@ -59,9 +65,15 @@ const About = () => {
               !
             </p>
           </div>
-        </div>
+        </motion.div>
         {/*right side*/}
-        <div className="md:w-1/2 my-8">
+        <motion.div
+          className="md:w-1/2 my-8"
+          variants={fadeIn("left", 0.5)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <h4 className="text-2xl font-bold mb-8">My Skills</h4>
           <div className="flex flex-wrap gap-3 md:w-10/12">
             {skills.map((skill) => (
@@ -73,7 +85,7 @@ const About = () => {
               </p>
             ))}
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
