@@ -32,7 +32,26 @@ const Projects = () => {
                 <p className="text-lg text-[#666] leading-6 mb-6">
                   {project.description}
                 </p>
-                <button className="btn py-3 px-7">Demo?</button>
+                <div className="flex justify-between">
+                  <button className="btn py-3 px-7">
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Demo
+                    </a>
+                  </button>
+                  <button className="btn py-3 px-7 bg-white border-2 border-purple-600 text-purple-600 hover:bg-purple-200">
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Repo
+                    </a>
+                  </button>
+                </div>
               </div>
             </motion.div>
           </div>
