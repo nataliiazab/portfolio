@@ -14,7 +14,7 @@ const projects = [
     description:
       "Country Explorer is a React web application that allows users to explore information about different countries around the world. It provides features such as country search, region-based filtering, and a toggle for light and dark mode.",
     image: "./images/Country-Explorer.png",
-    demo: "cyf-nataliizab-countries-react.netlify.app/",
+    demo: "https://cyf-nataliizab-countries-react.netlify.app/",
     github: "https://github.com/nataliiazab/countries-react",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     description:
       "Engineered an interactive React app matching users' traits with Barbie movie characters. Utilised third-party libraries and responsive design for optimal user experience",
     image: "./images/barbie-app.png",
-    demo: "nataliiazab-barbie-app.netlify.app/",
+    demo: "https://nataliiazab-barbie-app.netlify.app/",
     github: "https://github.com/nataliiazab/barbie-app",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description:
       "I've built a simple Rock, Paper, Scissors game built using HTML, CSS, JavaScript and DOM. The game allows two players to enter their names, make their choices, and see the winner's result",
     image: "./images/Rock-Paper-Scissors-Game.png",
-    demo: "nataliiazab-rock-paper-scissors.netlify.app/",
+    demo: "https://nataliiazab-rock-paper-scissors.netlify.app/",
     github: "https://github.com/nataliiazab/rock-paper-scissors",
   },
 ];
