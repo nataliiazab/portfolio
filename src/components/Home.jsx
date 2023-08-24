@@ -10,8 +10,8 @@ import {fadeIn} from '../variants';
 
 const Home = () => {
   return (
-    <div className="hero h-screen flex items-center justify-center" id="home">
-      <div className="text-center md:w-1/2">
+    <div className="hero my-8 md:py-8 px-7 relative" id="home">
+      <div className="h-screen flex items-center justify-center">
         <motion.div
           className="text-center md:w-1/2"
           variants={fadeIn("up", 0.3)}
