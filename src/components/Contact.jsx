@@ -1,12 +1,21 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
 import Headline from "../shared/Headline";
-//motion animation
 import { motion } from "framer-motion";
-//variants
 import { fadeIn } from "../variants";
+import { useForm, ValidationError } from "@formspree/react";
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("xaygopzr");
+
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+
+    if (await handleSubmit(event)) {
+      // Form submission was successful
+      alert("Thank you for submitting!");
+    }
+  };
+
   return (
     <motion.div
       className="contact mx-auto mt-8 px-7"
@@ -19,30 +28,28 @@ const Contact = () => {
       <Headline
         title={"CONTACT"}
         subtitle={
-          "Feel free to Contact me by submitting the form below and I will get back tou you as soon as possible"
+          "Feel free to Contact me by submitting the form below and I will get back to you as soon as possible"
         }
       />
       <div className="md:w-2/3 mx-auto bg-white md:px-16 px-8 py-8 rounded mb-32">
-        <form>
-          <label htmlFor="">Name:</label>
+        <form onSubmit={handleFormSubmit}>
+          <label htmlFor="name">Name:</label>
           <input
             type="text"
             name="name"
             id="name"
             placeholder="Enter Your Name"
             className="p-5"
-          ></input>
-
-          <label htmlFor="">Email:</label>
+          />
+          <label htmlFor="email">Email:</label>
           <input
             type="email"
             name="email"
             id="email"
             placeholder="Enter Your Email"
             className="p-5"
-          ></input>
-
-          <label htmlFor="">Message:</label>
+          />
+          <label htmlFor="message">Message:</label>
           <textarea
             name="message"
             id="message"
@@ -50,9 +57,26 @@ const Contact = () => {
             rows="10"
             placeholder="Enter Your Message"
             className="p-5 mb-8"
-          ></textarea>
+          />
+          <ValidationError prefix="Name" field="name" errors={state.errors} />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
 
-          <button className="btn px-14 py-4 shadow-sm">Submit</button>
+          {state.succeeded ? (
+            <p className="text-indigo-600">Thank you for your message!</p>
+          ) : (
+            <button
+              className="btn px-14 py-4 shadow-sm transition-transform duration-300 transform uppercase font-semibold text-white bg-indigo-600 border rounded-lg text-lg"
+              type="submit"
+              disabled={state.submitting}
+            >
+              Submit
+            </button>
+          )}
         </form>
       </div>
     </motion.div>
