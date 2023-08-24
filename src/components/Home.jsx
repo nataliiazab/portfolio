@@ -1,12 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+
 import LinkedIn from "../assets/social-media-icons/LinkedIn.svg";
 import GitHub from "../assets/social-media-icons/GitHub.svg";
 import { TypeAnimation } from "react-type-animation";
 //motion animation
-import {motion} from 'framer-motion';
-//variants 
-import {fadeIn} from '../variants';
+import { motion } from "framer-motion";
+//variants
+import { fadeIn } from "../variants";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -46,7 +48,10 @@ const Home = () => {
             solving problems. I am passionate about creating solutions that make
             a difference.
           </p>
-          <button className="btn py-4 px-16">Projects</button>
+
+          <button className="btn py-4 px-16">
+            <Link to="projects">Projects </Link>
+          </button>
         </motion.div>
       </div>
       {/*hero social-media*/}
