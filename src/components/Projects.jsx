@@ -26,7 +26,11 @@ const Projects = () => {
               whileInView={"show"}
               viewport={{ once: true, amount: 0.2 }}
             >
-              <img src={project.image} alt="" />
+              <img
+                className="transform transition-transform hover:scale-105"
+                src={project.image}
+                alt={project.name}
+              />
               <div className="md:w-10/12 text-center md:text-left px-2">
                 <h4 className="text-2xl font-bold mb-6">{project.name}</h4>
                 <p className="text-lg text-[#666] leading-6 mb-6">
