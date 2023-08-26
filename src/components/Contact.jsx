@@ -70,7 +70,7 @@ const Contact = () => {
             <p className="text-indigo-600">Thank you for your message!</p>
           ) : (
             <button
-              className="btn px-14 py-4 shadow-sm transition-transform duration-300 transform uppercase font-semibold text-white bg-indigo-600 border rounded-lg text-lg"
+              className="btn px-14 py-4 shadow-sm transition-transform duration-300 transform uppercase font-semibold text-white bg-[#7843e9] border rounded-lg text-lg"
               type="submit"
               disabled={state.submitting}
             >
