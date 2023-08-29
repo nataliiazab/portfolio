@@ -31,6 +31,8 @@ const Home = () => {
               1000,
               "Software Engineer",
               1000,
+              "Frontend Developer",
+              1000,
               "React Developer",
               1000,
               "JavaScript Developer",
@@ -46,9 +48,7 @@ const Home = () => {
             I <strong>switched from project management to tech</strong> after
             discovering my passion for programming while delivering
             cybersecurity projects for the US Department of State. I{" "}
-            <strong>
-              completed a 500-hour fullstack development bootcamp
-            </strong>{" "}
+            <strong>completed a 500-hour fullstack development bootcamp</strong>{" "}
             and I'm now looking for my first role where I can use my skills to
             create innovative solutions.
           </p>
