@@ -31,9 +31,10 @@ const About = () => {
           <div className="md:w-10/12 text-lg text-[#666] mb-8">
             <p className="mb-5">
               I'm Natalie, a Fullstack developer with a passion for using
-              technology to solve real-world problems. I have a background in
-              project management and a STEM degree, and I'm eager to start my
-              career as a Fullstack developer.
+              technology to solve real-world problems. I have a{" "}
+              <strong>background in project management</strong> and a{" "}
+              <strong>STEM degree</strong>, and I'm eager to start my career as
+              a Fullstack developer.
             </p>
             <p className="mb-5">
               In my previous role as a project manager, I was responsible for
@@ -45,11 +46,12 @@ const About = () => {
             <p className="mb-5">
               In my bootcamp, I learned the fullstack development process, from
               front-end to back-end. I built the Good PR App, which uses GitHub
-              APIs to enhance engagement within a bootcamp community. I'm also a
-              quick learner and eager to work hard.
+              APIs to enhance engagement within a bootcamp community. In my
+              spare time, I visit tech events and build personal projects. I'm
+              always looking for new ways to learn and grow as a developer.
             </p>
             <p className="mb-5">
-              I'm looking for an entry-level full-stack developer role where I
+              I'm looking for an entry-level Fullstack developer role where I
               can learn, grow and make a difference. Connect with me on{" "}
               <a
                 href="https://www.linkedin.com/feed/"
