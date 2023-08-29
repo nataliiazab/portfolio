@@ -37,25 +37,33 @@ const About = () => {
               a Fullstack developer.
             </p>
             <p className="mb-5">
-              In my previous role as a project manager, I was responsible for
-              leading and coordinating teams to deliver{" "}
-              <strong>cybersecurity </strong> projects on time and within budget.
-              I have a proven track record of success in
-              <strong>
-                {" "}
-                communicating effectively, solving problems, and working
-                collaboratively{" "}
-              </strong>
+              As a project manager, I have a proven track record of delivering
+              <strong> cybersecurity projects</strong> on time and within
+              budget. I am particularly proud of leading a project that trained
+              70+ Ukrainian veterans to become cybersecurity professionals -{" "}
+              <a
+                href="https://www.crdfglobal.org/insights/cybersecurity-gives-me-opportunity-continue-path-defender/"
+                className="text-secondary font-bold underline"
+              >
+                CyberDefenders
+              </a>
               .
             </p>
             <p className="mb-5">
-              In my intensive <strong>bootcamp</strong>, I learned the fullstack
+              In my <strong>bootcamp</strong>, I learned the fullstack
               development process and collaborated with a diverse group of
-              developers. I built the Good PR App, which uses GitHub APIs to
-              enhance engagement within a bootcamp community. In my spare time,
-              I visit <strong>tech events</strong> and build personal projects.
-              I'm always looking for new ways to
-              <strong>learn and grow</strong> as a developer.
+              developers. As part of my final project, I co-developed the{" "}
+              <a
+                href="https://good-pr.vercel.app/"
+                className="text-secondary font-bold underline"
+              >
+                Good PR App
+              </a>
+              , which uses GitHub APIs to enhance engagement within a bootcamp
+              community. In my spare time, I attend <strong>tech events</strong>{" "}
+              and build <strong>personal projects</strong> to stay up-to-date on
+              the latest technologies. I'm always looking for new ways to
+              <strong> learn and grow</strong> as a developer.
             </p>
             <p className="mb-5">
               I'm looking for an{" "}
