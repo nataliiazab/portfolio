@@ -40,15 +40,21 @@ const About = () => {
               In my previous role as a project manager, I was responsible for
               leading and coordinating teams to deliver projects on time and
               within budget. I have a proven track record of success in
-              communicating effectively, solving problems, and working
-              collaboratively.
+              <strong>
+                {" "}
+                communicating effectively, solving problems, and working
+                collaboratively{" "}
+              </strong>
+              .
             </p>
             <p className="mb-5">
-              In my bootcamp, I learned the fullstack development process, from
-              front-end to back-end. I built the Good PR App, which uses GitHub
-              APIs to enhance engagement within a bootcamp community. In my
-              spare time, I visit tech events and build personal projects. I'm
-              always looking for new ways to learn and grow as a developer.
+              In my <strong>bootcamp</strong>, I learned the fullstack
+              development process, from front-end to back-end and collaborated
+              with a diverse group of developers. I built the Good PR App, which
+              uses GitHub APIs to enhance engagement within a bootcamp
+              community. In my spare time, I visit tech events and build
+              personal projects. I'm always looking for new ways to learn and
+              grow as a developer.
             </p>
             <p className="mb-5">
               I'm looking for an entry-level Fullstack developer role where I
