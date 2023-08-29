@@ -43,10 +43,12 @@ const Home = () => {
             className="font-semibold text-transparent leading-10 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
           />
           <p className="text-light text-xl my-8">
-            I am a full-stack web developer with a passion for lifelong
-            learning. I believe in the power of technology and the power of
-            solving problems. I am passionate about creating solutions that make
-            a difference.
+            I'm a Fullstack developer with a passion for programming. I
+            switched from project management to tech after discovering my love
+            for programming while delivering cybersecurity projects for the US
+            Department of State. I completed a 500-hour full-stack development
+            bootcamp and I'm now looking for my first role where I can use my
+            skills to create innovative solutions.
           </p>
 
           <button className="btn py-4 px-16">
