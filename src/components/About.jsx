@@ -38,7 +38,7 @@ const About = () => {
             </p>
             <p className="mb-5">
               In my previous role as a project manager, I was responsible for
-              leading and coordinating teams to deliver projects on time and
+              leading and coordinating teams to deliver cybersecurity projects on time and
               within budget. I have a proven track record of success in
               <strong>
                 {" "}
@@ -48,7 +48,7 @@ const About = () => {
               .
             </p>
             <p className="mb-5">
-              In my <strong>bootcamp</strong>, I learned the fullstack
+              In my intensive<strong>bootcamp</strong>, I learned the fullstack
               development process and collaborated
               with a diverse group of developers. I built the Good PR App, which
               uses GitHub APIs to enhance engagement within a bootcamp
