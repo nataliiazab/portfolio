@@ -38,8 +38,9 @@ const About = () => {
             </p>
             <p className="mb-5">
               In my previous role as a project manager, I was responsible for
-              leading and coordinating teams to deliver cybersecurity projects on time and
-              within budget. I have a proven track record of success in
+              leading and coordinating teams to deliver{" "}
+              <strong>cybersecurity </strong> projects on time and within budget.
+              I have a proven track record of success in
               <strong>
                 {" "}
                 communicating effectively, solving problems, and working
@@ -48,12 +49,12 @@ const About = () => {
               .
             </p>
             <p className="mb-5">
-              In my intensive<strong>bootcamp</strong>, I learned the fullstack
-              development process and collaborated
-              with a diverse group of developers. I built the Good PR App, which
-              uses GitHub APIs to enhance engagement within a bootcamp
-              community. In my spare time, I visit <strong>tech events</strong>{" "}
-              and build personal projects. I'm always looking for new ways to
+              In my intensive <strong>bootcamp</strong>, I learned the fullstack
+              development process and collaborated with a diverse group of
+              developers. I built the Good PR App, which uses GitHub APIs to
+              enhance engagement within a bootcamp community. In my spare time,
+              I visit <strong>tech events</strong> and build personal projects.
+              I'm always looking for new ways to
               <strong>learn and grow</strong> as a developer.
             </p>
             <p className="mb-5">
