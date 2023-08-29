@@ -30,8 +30,8 @@ const About = () => {
           <h4 className="text-2xl font-bold mb-8">Get to know me!</h4>
           <div className="md:w-10/12 text-lg text-[#666] mb-8">
             <p className="mb-5">
-              I'm Natalie, a Fullstack developer with a passion for using
-              technology to solve real-world problems. I have a{" "}
+              I'm Natalie, a <strong>Fullstack developer</strong> with a passion
+              for using technology to solve real-world problems. I have a{" "}
               <strong>background in project management</strong> and a{" "}
               <strong>STEM degree</strong>, and I'm eager to start my career as
               a Fullstack developer.
@@ -49,16 +49,17 @@ const About = () => {
             </p>
             <p className="mb-5">
               In my <strong>bootcamp</strong>, I learned the fullstack
-              development process, from front-end to back-end and collaborated
+              development process and collaborated
               with a diverse group of developers. I built the Good PR App, which
               uses GitHub APIs to enhance engagement within a bootcamp
-              community. In my spare time, I visit tech events and build
-              personal projects. I'm always looking for new ways to learn and
-              grow as a developer.
+              community. In my spare time, I visit <strong>tech events</strong>{" "}
+              and build personal projects. I'm always looking for new ways to
+              <strong>learn and grow</strong> as a developer.
             </p>
             <p className="mb-5">
-              I'm looking for an entry-level Fullstack developer role where I
-              can learn, grow and make a difference. Connect with me on{" "}
+              I'm looking for an{" "}
+              <strong>entry-level Fullstack developer role</strong> where I can
+              learn, grow and make a difference. Connect with me on{" "}
               <a
                 href="https://www.linkedin.com/feed/"
                 className="text-secondary font-bold underline"
