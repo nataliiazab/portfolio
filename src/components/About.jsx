@@ -13,7 +13,7 @@ const About = () => {
       <Headline
         title={"ABOUT ME"}
         subtitle={
-          "Here you will find more information about me, what I do, and my current tech skills"
+          "This is a brief overview of my background and my tech skills."
         }
       />
 

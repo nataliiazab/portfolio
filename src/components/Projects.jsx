@@ -12,9 +12,7 @@ const Projects = () => {
     <div className="max-w-7xl mx-auto md:py-8 px-7" id="projects">
       <Headline
         title={"PROJECTS"}
-        subtitle={
-          "Here you will find some of the personal and group projects that I worked on"
-        }
+        subtitle={"I have included some of my personal and group projects here"}
       />
       <div>
         {projects.map((project) => (

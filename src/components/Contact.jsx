@@ -28,7 +28,7 @@ const Contact = () => {
       <Headline
         title={"CONTACT"}
         subtitle={
-          "Feel free to Contact me by submitting the form below and I will get back to you as soon as possible"
+          "I am always happy to hear from you. Please get in touch by submitting the form below if you have any questions."
         }
       />
       <div className="md:w-2/3 mx-auto bg-white md:px-16 px-8 py-8 rounded mb-32">
