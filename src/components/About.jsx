@@ -22,10 +22,10 @@ const About = () => {
         {/*left side*/}
         <motion.div
           className="md:w-1/2 my-8"
-          variants={fadeIn("right", 0.3)}
+          variants={fadeIn("up", 0.3)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: false, amount: 0.2 }}
         >
           <h4 className="text-2xl font-bold mb-8">Get to know me!</h4>
           <div className="md:w-10/12 text-lg text-[#666] mb-8">
@@ -83,10 +83,10 @@ const About = () => {
         {/*right side*/}
         <motion.div
           className="md:w-1/2 my-8"
-          variants={fadeIn("left", 0.5)}
+          variants={fadeIn("up", 0.3)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: false, amount: 0.2 }}
         >
           <h4 className="text-2xl font-bold mb-8">My Skills</h4>
           <div className="flex flex-wrap gap-3 md:w-10/12">
