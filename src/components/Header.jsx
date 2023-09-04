@@ -18,16 +18,18 @@ const Header = () => {
     <div className="w-full relative z-[100]">
       <div className="md:flex items-center justify-between bg-white py-4 md:py-0 md:px-14 px-7 fixed top-0 left-0 right-0 shadow-sm">
         {/*logo*/}
-        <div className="font-bold text-2xl tracking-wide cursor-pointer flex items-center gap-1">
-          <img
-            src={logo}
-            alt="illustration of a woman who code"
-            className="md:w-12 md:h-12 w-10 h-10"
-          />
-          <span className="text-primary hover:text-secondary md:ml-3 ml-2">
-            NATALIE ZABLOTSKA
-          </span>
-        </div>
+        <Link to={Links[0].link}>
+          <div className="font-bold text-2xl tracking-wide cursor-pointer flex items-center gap-1">
+            <img
+              src={logo}
+              alt="illustration of a woman who code"
+              className="md:w-12 md:h-12 w-10 h-10"
+            />
+            <span className="text-primary hover:text-secondary md:ml-3 ml-2">
+              NATALIE ZABLOTSKA
+            </span>
+          </div>
+        </Link>
         {/*menu icon*/}
         <div
           onClick={() => setOpen(!open)}
