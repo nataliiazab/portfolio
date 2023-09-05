@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     name: "Good PR App",
     description:
-      "The Good PR App is a final group project for Code Your Future bootcamp using Next.js, Prisma, and Tailwind CSS. I collaborated with 3 other developers to create this App",
+      "The Good PR App is a final group project for Code Your Future (CYF) using Next.js, Prisma, and Tailwind CSS. The app designed to provide users with a clear visualization of the progress and activity of CYF trainees' final projects on GitHub.I collaborated with 3 other developers to create this App",
     image: "./images/good-pr.png",
     demo: "https://good-pr.vercel.app/",
     github: "https://github.com/nataliiazab/good-pr",
