@@ -35,6 +35,13 @@ const Projects = () => {
 
               <div className="md:w-10/12 text-center md:text-left px-2">
                 <h4 className="text-2xl font-bold mb-6">{project.name}</h4>
+
+                <p className="  text-light  mb-4  ">
+                  <span className="rounded bg-slate-300 py-2 px-4 text-left uppercase ">
+                    {project.type}
+                  </span>
+                </p>
+
                 <p className="text-lg text-[#666] leading-6 mb-6">
                   {project.description}
                 </p>

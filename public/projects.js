@@ -7,6 +7,7 @@ const projects = [
     image: "./images/good-pr.png",
     demo: "https://good-pr.vercel.app/",
     github: "https://github.com/nataliiazab/good-pr",
+    type: "group project",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const projects = [
     image: "./images/Country-Explorer.png",
     demo: "https://cyf-nataliizab-countries-react.netlify.app/",
     github: "https://github.com/nataliiazab/countries-react",
+    type: "personal project",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const projects = [
     image: "./images/barbie-app.png",
     demo: "https://nataliiazab-barbie-app.netlify.app/",
     github: "https://github.com/nataliiazab/barbie-app",
+    type: "personal project",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ const projects = [
     image: "./images/Rock-Paper-Scissors-Game.png",
     demo: "https://nataliiazab-rock-paper-scissors.netlify.app/",
     github: "https://github.com/nataliiazab/rock-paper-scissors",
+    type: "personal project",
   },
 ];
 
