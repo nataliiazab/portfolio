@@ -30,9 +30,9 @@ const About = () => {
           <h4 className="text-2xl font-bold mb-8">Get to know me!</h4>
           <div className="md:w-10/12 text-lg text-[#666] mb-8">
             <p className="mb-5">
-              I'm Natalie, a <strong>Full Stack Developer</strong> with a passion
-              for using technology to solve real-world problems. I have a{" "}
-              <strong>background in project management</strong> and a{" "}
+              I'm Natalie, a <strong>Full Stack Developer</strong> with a
+              passion for using technology to solve real-world problems. I have
+              a <strong>background in project management</strong> and a{" "}
               <strong>STEM degree</strong>, and I'm eager to start my career as
               a full stack developer.
             </p>
@@ -50,9 +50,10 @@ const About = () => {
               .
             </p>
             <p className="mb-5">
-              In <strong>CodeYourFuture</strong> (CYF), I learned the full stack
-              development process and collaborated with a diverse group of
-              developers. As part of my final project, I co-developed the{" "}
+              In <strong>CodeYourFuture</strong> (CYF), a 12-month training
+              programme, I learned the full stack development process and
+              collaborated with a diverse group of developers. As part of my
+              final project, I co-developed the{" "}
               <a
                 href="https://good-pr.vercel.app/"
                 className="text-secondary font-bold underline"
