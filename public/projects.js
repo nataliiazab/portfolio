@@ -12,7 +12,7 @@ const projects = [
     id: 2,
     name: "Country Explorer",
     description:
-      "Country Explorer is a React web application that allows users to explore information about different countries around the world. It provides features such as country search, region-based filtering, and a toggle for light and dark mode.",
+      "Country Explorer is a web application that allows users to explore information about different countries around the world. It provides features such as country search, region-based filtering, and a toggle for light and dark mode. It is built on a full stack of React, REST Countries API and CSS",
     image: "./images/Country-Explorer.png",
     demo: "https://cyf-nataliizab-countries-react.netlify.app/",
     github: "https://github.com/nataliiazab/countries-react",
