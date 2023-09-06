@@ -30,11 +30,11 @@ const About = () => {
           <h4 className="text-2xl font-bold mb-8">Get to know me!</h4>
           <div className="md:w-10/12 text-lg text-[#666] mb-8">
             <p className="mb-5">
-              I'm Natalie, a <strong>Full stack developer</strong> with a passion
+              I'm Natalie, a <strong>Full Stack Developer</strong> with a passion
               for using technology to solve real-world problems. I have a{" "}
               <strong>background in project management</strong> and a{" "}
               <strong>STEM degree</strong>, and I'm eager to start my career as
-              a Full stack developer.
+              a full stack developer.
             </p>
             <p className="mb-5">
               As a project manager, I have a proven track record of delivering
@@ -50,7 +50,7 @@ const About = () => {
               .
             </p>
             <p className="mb-5">
-              In <strong>CodeYourFuture</strong>, I learned the full stack
+              In <strong>CodeYourFuture</strong> (CYF), I learned the full stack
               development process and collaborated with a diverse group of
               developers. As part of my final project, I co-developed the{" "}
               <a
@@ -59,7 +59,7 @@ const About = () => {
               >
                 Good PR App
               </a>
-              , which uses GitHub APIs to enhance engagement within a bootcamp
+              , which uses GitHub APIs to enhance engagement within a CYF
               community. In my spare time, I attend <strong>tech events</strong>{" "}
               and build <strong>personal projects</strong> to stay up-to-date on
               the latest technologies. I'm always looking for new ways to
