@@ -13,7 +13,7 @@ const Footer = () => {
             NATALIE ZABLOTSKA
           </h4>
           <p className="mt-5 text-sm leading-7 text-[#eee]">
-            Fullstack Developer
+            Full stack Developer
           </p>
         </div>
 
