@@ -27,7 +27,7 @@ const Projects = () => {
               <a href={project.demo}>
                 {" "}
                 <img
-                  className="transform transition-transform hover:scale-105"
+                  className="transform transition-transform hover:scale-105 rounded"
                   src={project.image}
                   alt={project.name}
                 />
