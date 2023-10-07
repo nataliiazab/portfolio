@@ -50,8 +50,7 @@ const About = () => {
               .
             </p>
             <p className="mb-5">
-              In <strong>CodeYourFuture</strong> (CYF), a 12-month training
-              programme, I learned the full stack development process and
+              In <strong>CodeYourFuture</strong> (CYF), a 12-month bootcamp, I learned the full stack development process and
               collaborated with a diverse group of developers. As part of my
               final project, I co-developed the{" "}
               <a

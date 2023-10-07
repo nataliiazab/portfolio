@@ -48,7 +48,7 @@ const Home = () => {
             I <strong>switched from project management to tech</strong> after
             discovering my passion for programming while delivering
             cybersecurity projects funded by the US Department of State. I{" "}
-            <strong>completed a 12-month software development training programme</strong>{" "}
+            <strong>completed a 12-month coding bootcamp</strong>{" "}
             and I'm now looking for my first role where I can use my skills to
             create innovative tech solutions.
           </p>
