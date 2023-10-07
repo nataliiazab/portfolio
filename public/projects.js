@@ -42,7 +42,7 @@ const projects = [
     type: "personal project",
   },
   {
-    id: 4,
+    id: 5,
     name: "Simple Arcade-Style Game",
     description:
       "Currently developing a 2D arcade-style game in JavaScript, HTML5 Canvas and DOM where players shoot down falling green squares. Inspired to create this game after attending a recent JavaScript event.",
