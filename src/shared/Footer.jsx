@@ -9,9 +9,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto py-20 flex flex-col md:flex-row justify-between">
         {/* Logo and description */}
         <div className="md:w-2/5 my-3">
-          <h4 className="text-white font-bold text-2xl tracking-white">
+          <h1 className="text-white font-bold text-2xl tracking-white">
             NATALIE ZABLOTSKA
-          </h4>
+          </h1>
           <p className="mt-5 text-sm leading-7 text-[#eee]">
             Full stack Developer
           </p>
@@ -19,9 +19,9 @@ const Footer = () => {
 
         {/*social icons */}
         <div className="my-3">
-          <h4 className="text-white font-bold text-2xl tracking-white">
+          <h3 className="text-white font-bold text-2xl tracking-white">
             SOCIAL MEDIA
-          </h4>
+          </h3>
           <div className="mt-5 flex gap-3">
             <a
               href="https://www.linkedin.com/in/nataliia-zablotska"
