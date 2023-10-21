@@ -32,30 +32,65 @@ const Contact = () => {
       <div className="md:w-2/3 mx-auto bg-white md:px-16 px-8 py-8 rounded mb-32">
         <form onSubmit={handleFormSubmit}>
           <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Enter Your Name"
-            className="p-5"
-          />
+          {state.succeeded ? (
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+              className="p-5"
+              disabled
+            />
+          ) : (
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+              className="p-5"
+            />
+          )}
           <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter Your Email"
-            className="p-5"
-          />
+          {state.succeeded ? (
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+              className="p-5"
+              disabled
+            />
+          ) : (
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+              className="p-5"
+            />
+          )}
           <label htmlFor="message">Message:</label>
-          <textarea
-            name="message"
-            id="message"
-            cols="80"
-            rows="10"
-            placeholder="Enter Your Message"
-            className="p-5 mb-8"
-          />
+          {state.succeeded ? (
+            <textarea
+              name="message"
+              id="message"
+              cols="80"
+              rows="10"
+              placeholder="Enter Your Message"
+              className="p-5 mb-8"
+              disabled
+            />
+          ) : (
+            <textarea
+              name="message"
+              id="message"
+              cols="80"
+              rows="10"
+              placeholder="Enter Your Message"
+              className="p-5 mb-8"
+            />
+          )}
+
           <ValidationError prefix="Name" field="name" errors={state.errors} />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <ValidationError
