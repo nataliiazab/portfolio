@@ -19,9 +19,9 @@ const Footer = () => {
 
         {/*social icons */}
         <div className="my-3">
-          <h3 className="text-white font-bold text-2xl tracking-white">
+          <h1 className="text-white font-bold text-2xl tracking-white">
             SOCIAL MEDIA
-          </h3>
+          </h1>
           <div className="mt-5 flex gap-3">
             <a
               href="https://www.linkedin.com/in/nataliia-zablotska"
