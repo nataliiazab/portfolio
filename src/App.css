@@ -1,19 +1,14 @@
 @import url("https://fonts.cdnfonts.com/css/source-sans-pro");
-#root {
-  margin: 0 auto;
+
+body {
+  margin: 0;
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .hero {
-  background: linear-gradient(
-      to right,
-      rgba(245, 245, 245, 0.9),
-      rgba(245, 245, 245, 0.9)
-    ),
-    url(/src/assets/background.png);
-  background-position: center;
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)),
+              url(/src/assets/background.png) center/cover;
   height: 100vh;
-  /* min-height: 80rem; */
   max-height: 120rem;
   position: relative;
 }
@@ -27,7 +22,7 @@
   font-weight: 700;
   border-radius: 5px;
   font-size: 1.2rem;
-  /* padding: 1rem 3.67rem; */
+  padding: 1rem 3.67rem;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
 }
@@ -51,22 +46,14 @@
   grid-gap: 5rem;
   margin-bottom: 11rem;
 }
+
 .contact {
-  /* box-shadow: rgba(100,100,111,.2) 0 7px 29px 0; */
   background: #fff;
   padding: 4rem;
-  margin-top: 6rem;
-  /* max-width: 80rem; */
-  text-align: right;
-  /* width: 95%; */
+  margin: 6rem auto 0 auto;
   border-radius: 5px;
-  margin: 5rem auto 0 auto;
-  background: linear-gradient(
-      to right,
-      rgba(245, 245, 245, 0.8),
-      rgba(245, 245, 245, 0.8)
-    ),
-    url(/src/assets/background.png);
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)),
+              url(/src/assets/background.png) center/cover;
 }
 
 label {
@@ -74,7 +61,6 @@ label {
   font-size: 1.4rem;
   letter-spacing: 1px;
   font-weight: 700;
-  /* margin-bottom: 1rem; */
   display: block;
   text-align: left;
   margin: 20px 0 10px 0;
@@ -83,7 +69,7 @@ label {
 input,
 textarea {
   color: #333;
-  /* padding: 2rem; */
+  padding: 1rem;
   width: 100%;
   border: 1px solid #ebebeb;
   font-size: 1.6rem;
@@ -95,6 +81,6 @@ textarea {
 
 @media screen and (max-width: 576px) {
   .projects {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 }
