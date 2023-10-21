@@ -7,7 +7,7 @@ body {
 
 .hero {
   background: linear-gradient(to right, rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)),
-              url(/src/assets/background.png) center/cover;
+              url(/src/assets/background.webp) center/cover;
   height: 100vh;
   max-height: 120rem;
   position: relative;
