@@ -21,7 +21,11 @@ const Projects = () => {
               whileInView={"show"}
               viewport={{ once: true, amount: 0.2 }}
             >
-              <a href={project.demo}>
+              <a
+                href={project.demo}
+                itemScope
+                itemType="http://schema.org/WebPage"
+              >
                 {" "}
                 <img
                   className="transform transition-transform hover:scale-105 rounded"
@@ -34,17 +38,25 @@ const Projects = () => {
               </a>
 
               <div className="md:w-10/12 text-center md:text-left px-2">
-                <h4 className="text-2xl font-bold mb-6">{project.name}</h4>
+                <h4 className="text-2xl font-bold mb-6" itemProp="name">
+                  {project.name}
+                </h4>
                 <p className="  text-light  mb-4  ">
                   <span className="rounded bg-slate-300 py-2 px-4 text-left uppercase ">
                     {project.type}
                   </span>
                 </p>
-                <p className="text-lg text-[#666] leading-6 mb-6">
+                <p
+                  className="text-lg text-[#666] leading-6 mb-6"
+                  itemProp="description"
+                >
                   {project.description}
                 </p>
                 {project.type === "group project" && (
-                  <p className="text-lg text-[#666] leading-6 mb-6">
+                  <p
+                    className="text-lg text-[#666] leading-6 mb-6"
+                    itemProp="myContribution"
+                  >
                     {project.myContribution}
                   </p>
                 )}
