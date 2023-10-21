@@ -38,9 +38,9 @@ const Projects = () => {
               </a>
 
               <div className="md:w-10/12 text-center md:text-left px-2">
-                <h4 className="text-2xl font-bold mb-6" itemProp="name">
+                <h1 className="text-2xl font-bold mb-6" itemProp="name">
                   {project.name}
-                </h4>
+                </h1>
                 <p className="  text-light  mb-4  ">
                   <span className="rounded bg-slate-300 py-2 px-4 text-left uppercase ">
                     {project.type}
