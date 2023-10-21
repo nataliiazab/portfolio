@@ -1,30 +1,23 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
 import Headline from "../shared/Headline";
 import skills from "../../public/skills.js";
-//motion animation
 import { motion } from "framer-motion";
-//variants
 import { fadeIn } from "../variants";
 
 const About = () => {
   return (
     <div className="max-w-7xl mx-auto my-14 md:py-8 px-7" id="about">
       <Headline
-        title={"ABOUT ME"}
-        subtitle={
-          "This is a brief overview of my background and my tech skills."
-        }
+        title="ABOUT ME"
+        subtitle="This is a brief overview of my background and my tech skills."
       />
 
-      {/*About content*/}
       <div className="flex flex-col md:flex-row items-start justify-start">
-        {/*left side*/}
         <motion.div
           className="md:w-1/2 my-8"
           variants={fadeIn("up", 0.3)}
           initial="hidden"
-          whileInView={"show"}
+          whileInView="show"
           viewport={{ once: false, amount: 0.2 }}
         >
           <h4 className="text-2xl font-bold mb-8">Get to know me!</h4>
@@ -50,9 +43,10 @@ const About = () => {
               .
             </p>
             <p className="mb-5">
-              In <strong>CodeYourFuture</strong> (CYF), a 12-month bootcamp, I learned the full stack development process and
-              collaborated with a diverse group of developers. As part of my
-              final project, I co-developed the{" "}
+              In <strong>CodeYourFuture</strong> (CYF), a 12-month bootcamp, I
+              learned the full stack development process and collaborated with a
+              diverse group of developers. As part of my final project, I
+              co-developed the{" "}
               <a
                 href="https://good-pr.vercel.app/"
                 className="text-secondary font-bold underline"
@@ -73,19 +67,18 @@ const About = () => {
                 href="https://www.linkedin.com/feed/"
                 className="text-secondary font-bold underline"
               >
-                {" "}
                 LinkedIn
               </a>
               !
             </p>
           </div>
         </motion.div>
-        {/*right side*/}
+
         <motion.div
           className="md:w-1/2 my-8"
           variants={fadeIn("up", 0.3)}
           initial="hidden"
-          whileInView={"show"}
+          whileInView="show"
           viewport={{ once: false, amount: 0.2 }}
         >
           <h4 className="text-2xl font-bold mb-8">My Skills</h4>
