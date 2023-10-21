@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import logo from "../assets/profile-pic.png";
+import logo from "../assets/profile-pic.webp";
 
 const Header = () => {
   const Links = [
