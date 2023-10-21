@@ -28,7 +28,7 @@ const About = () => {
           whileInView="show"
           viewport={{ once: false, amount: 0.2 }}
         >
-          <h4 className="text-2xl font-bold mb-8">Get to know me!</h4>
+          <h1 className="text-2xl font-bold mb-8">Get to know me!</h1>
           <div className="md:w-10/12 text-lg text-[#666] mb-8">
             <p className="mb-5">
               I'm Natalie, a <strong>Full Stack Developer</strong> with a
@@ -89,7 +89,7 @@ const About = () => {
           whileInView="show"
           viewport={{ once: false, amount: 0.2 }}
         >
-          <h4 className="text-2xl font-bold mb-8">My Skills</h4>
+          <h1 className="text-2xl font-bold mb-8">My Skills</h1>
           <div className="flex flex-wrap gap-3 md:w-10/12">
             {skills.map((skill) => (
               <p
