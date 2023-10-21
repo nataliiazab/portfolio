@@ -22,14 +22,12 @@ const Contact = () => {
       id="contact"
       variants={fadeIn("right", 0.2)}
       initial="hidden"
-      whileInView={"show"}
+      whileInView="show"
       viewport={{ once: false, amount: 0.2 }}
     >
       <Headline
-        title={"CONTACT"}
-        subtitle={
-          "I am always happy to hear from you. Please get in touch by submitting the form below if you have any questions."
-        }
+        title="CONTACT"
+        subtitle="I am always happy to hear from you. Please get in touch by submitting the form below if you have any questions."
       />
       <div className="md:w-2/3 mx-auto bg-white md:px-16 px-8 py-8 rounded mb-32">
         <form onSubmit={handleFormSubmit}>
