@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Headline from "../shared/Headline";
 import skills from "../../public/skills.js";
 import { motion } from "framer-motion";
@@ -7,6 +8,13 @@ import { fadeIn } from "../variants";
 const About = () => {
   return (
     <div className="max-w-7xl mx-auto my-14 md:py-8 px-7" id="about">
+      <Helmet>
+        <title>About Me - Full Stack Developer</title>
+        <meta
+          name="description"
+          content="Learn about Natalie, a Full Stack Developer with a background in project management and a passion for technology. Find her skills and aspirations."
+        />
+      </Helmet>
       <Headline
         title="ABOUT ME"
         subtitle="This is a brief overview of my background and my tech skills."

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import LinkedInIcon from "../assets/social-media-icons/LinkedIn.svg";
@@ -9,6 +10,13 @@ import { fadeIn } from "../variants";
 const Home = () => {
   return (
     <div className="hero my-8 md:py-8 px-7 relative" id="home">
+      <Helmet>
+        <title>Natalie Zablotska - Full Stack Developer</title>
+        <meta
+          name="description"
+          content="Natalie Zablotska is a Full Stack Developer with a background in project management, passionate about creating innovative tech solutions. Discover her journey and projects."
+        />
+      </Helmet>
       <div className="h-screen flex items-center justify-center">
         <motion.div
           className="text-center md:w-1/2"
