@@ -30,6 +30,8 @@ const Projects = () => {
                   className="transform transition-transform hover:scale-105 rounded"
                   src={project.image}
                   alt={project.name}
+                  width={940}
+                  height={788}
                 />
               </a>
 
@@ -45,11 +47,11 @@ const Projects = () => {
                 <p className="text-lg text-[#666] leading-6 mb-6">
                   {project.description}
                 </p>
-                {project.type === "group project" &&
+                {project.type === "group project" && (
                   <p className="text-lg text-[#666] leading-6 mb-6">
-                  {project.myContribution}
-                </p>
-                }
+                    {project.myContribution}
+                  </p>
+                )}
                 <div className="flex justify-between">
                   <button className="btn py-3 px-7">
                     <a
