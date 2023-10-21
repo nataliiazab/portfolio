@@ -59,9 +59,9 @@ const Home = () => {
             innovative tech solutions.
           </p>
 
-          <button className="btn py-4 px-16">
-            <Link to="projects">Projects</Link>
-          </button>
+          <a href="#projects" className="btn py-4 px-16">
+            Projects
+          </a>
         </motion.div>
       </div>
       {/* Hero social-media */}
