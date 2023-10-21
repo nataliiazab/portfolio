@@ -26,11 +26,16 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/nataliia-zablotska"
               className="ml-1"
+              aria-label="LinkedIn Profile"
             >
-              <img src={linkedin} alt="" className="w-7 h-7" />
+              <img src={linkedin} alt="LinkedIn" className="w-7 h-7" />
             </a>
-            <a href="https://github.com/nataliiazab" className="ml-1">
-              <img src={github} alt="" className="w-7 h-7" />
+            <a
+              href="https://github.com/nataliiazab"
+              className="ml-1"
+              aria-label="GitHub Profile"
+            >
+              <img src={github} alt="GitHub" className="w-7 h-7" />
             </a>
           </div>
         </div>
