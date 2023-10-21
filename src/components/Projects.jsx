@@ -1,10 +1,7 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
 import Headline from "../shared/Headline";
 import projects from "../../public/projects.js";
-//motion animation
 import { motion } from "framer-motion";
-//variants
 import { fadeIn } from "../variants";
 
 const Projects = () => {
@@ -32,18 +29,17 @@ const Projects = () => {
                   alt={project.name}
                   width={940}
                   height={788}
+                  loading="lazy" // Lazy load images
                 />
               </a>
 
               <div className="md:w-10/12 text-center md:text-left px-2">
                 <h4 className="text-2xl font-bold mb-6">{project.name}</h4>
-
                 <p className="  text-light  mb-4  ">
                   <span className="rounded bg-slate-300 py-2 px-4 text-left uppercase ">
                     {project.type}
                   </span>
                 </p>
-
                 <p className="text-lg text-[#666] leading-6 mb-6">
                   {project.description}
                 </p>
