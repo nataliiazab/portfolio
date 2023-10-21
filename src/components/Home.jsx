@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import LinkedInIcon from "../assets/social-media-icons/LinkedIn.svg";
 import GitHubIcon from "../assets/social-media-icons/GitHub.svg";
-import TypeAnimation from "react-type-animation";
+import { TypeAnimation } from "react-type-animation";
 import { fadeIn } from "../variants";
 
 const Home = () => {
