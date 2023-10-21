@@ -39,8 +39,8 @@ const Contact = () => {
               id="name"
               placeholder="Enter Your Name"
               className="p-5"
+              value=""
               disabled
-              
             />
           ) : (
             <input
@@ -59,6 +59,7 @@ const Contact = () => {
               id="email"
               placeholder="Enter Your Email"
               className="p-5"
+              value=""
               disabled
             />
           ) : (
@@ -68,7 +69,6 @@ const Contact = () => {
               id="email"
               placeholder="Enter Your Email"
               className="p-5"
-              
             />
           )}
           <label htmlFor="message">Message:</label>
@@ -81,6 +81,7 @@ const Contact = () => {
               placeholder="Enter Your Message"
               className="p-5 mb-8"
               disabled
+              value=" "
             />
           ) : (
             <textarea
@@ -102,7 +103,9 @@ const Contact = () => {
           />
 
           {state.succeeded ? (
-            <p className="text-indigo-600">Thank you for reaching out! Your message has been received</p>
+            <p className="text-indigo-600">
+              Thank you for reaching out! Your message has been received
+            </p>
           ) : (
             <button
               className="btn px-14 py-4 shadow-sm transition-transform duration-300 transform uppercase font-semibold text-white bg-[#7843e9] border rounded-lg text-lg"

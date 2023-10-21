@@ -49,24 +49,22 @@ const Projects = () => {
                   </p>
                 )}
                 <div className="flex justify-between">
-                  <button className="btn py-3 px-7">
-                    <a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Demo
-                    </a>
-                  </button>
-                  <button className="btn py-3 px-7 bg-white border-2 border-purple-600 text-purple-600 hover:bg-purple-200">
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Repo
-                    </a>
-                  </button>
+                  <a
+                    className="btn py-3 px-7"
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                  </a>
+                  <a
+                    className="btn py-3 px-7 bg-white border-2 border-purple-600 text-purple-600 hover:bg-purple-200"
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Repo
+                  </a>
                 </div>
               </div>
             </motion.div>
