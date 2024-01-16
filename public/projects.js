@@ -40,17 +40,7 @@ const projects = [
     demo: "https://nataliiazab-rock-paper-scissors.netlify.app/",
     github: "https://github.com/nataliiazab/rock-paper-scissors",
     type: "personal project",
-  },
-  {
-    id: 5,
-    name: "Simple Arcade-Style Game",
-    description:
-      "Currently developing a 2D arcade-style game in JavaScript, HTML5 Canvas and DOM where players shoot down falling green squares. Inspired to create this game after attending a recent JavaScript event. (The current version is for desktop only)",
-    image: "./images/ongoing-project.png",
-    demo: "https://nataliiazab-simple-game.netlify.app/",
-    github: "https://github.com/nataliiazab/canvas_game_starter",
-    type: "personal project",
-  },
+  }
 ];
 
 export default projects;
