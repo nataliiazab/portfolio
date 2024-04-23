@@ -32,15 +32,8 @@ const About = () => {
           <div className="md:w-10/12 text-lg text-[#666] mb-8">
             <p className="mb-5">
               I'm Natalie, a <strong>Full Stack Developer</strong> with a
-              passion for using technology to solve real-world problems. I have
-              a <strong>background in project management</strong> and a{" "}
-              <strong>STEM degree</strong>, and I'm eager to start my career as
-              a full stack developer.
-            </p>
-            <p className="mb-5">
-              As a project manager, I have a proven track record of delivering
-              <strong> cybersecurity projects</strong> on time and within
-              budget. I am particularly proud of leading a project that trained
+              passion for using technology to solve real-world problems.  
+              I led cybersecurity projects funded by the U.S. government and configured a critical student system at St. George's, University of London.I am particularly proud of leading a project that trained
               70+ Ukrainian veterans to become cybersecurity professionals -{" "}
               <a
                 href="https://www.crdfglobal.org/insights/cybersecurity-gives-me-opportunity-continue-path-defender/"
@@ -48,7 +41,10 @@ const About = () => {
               >
                 CyberDefenders
               </a>
-              .
+              . </p>
+              
+            <p>
+              My experience includes full-stack development (CodeYourFuture), business applications support (St. George's), and project management (CRDF Global). I have strong analytical skills, gained through M.Sc. in Business Economics and Analytics.
             </p>
             <p className="mb-5">
               In <strong>CodeYourFuture</strong> (CYF), a 12-month bootcamp, I
@@ -61,15 +57,14 @@ const About = () => {
               >
                 Good PR App
               </a>
-              , which uses GitHub APIs to enhance engagement within a CYF
-              community. In my spare time, I attend <strong>tech events</strong>{" "}
+              , which resulted in an invitation to join a CYF product team. In my spare time, I attend <strong>tech events</strong>{" "}
               and build <strong>personal projects</strong> to stay up-to-date on
               the latest technologies. I'm always looking for new ways to
               <strong> learn and grow</strong> as a developer.
             </p>
             <p className="mb-5">
-              I'm looking for an{" "}
-              <strong>entry-level Full stack developer role</strong> where I can
+              I'm looking for a{" "}
+              <strong>junior-level full-stack or front-end developer role</strong> where I can
               learn, grow and make a difference. Connect with me on{" "}
               <a
                 href="https://www.linkedin.com/feed/"
