@@ -43,7 +43,7 @@ const About = () => {
               </a>
               . </p>
               
-            <p>
+            <p className="mb-5">
               My experience includes full-stack development (CodeYourFuture), business applications support (St. George's), and project management (CRDF Global). I have strong analytical skills, gained through M.Sc. in Business Economics and Analytics.
             </p>
             <p className="mb-5">
