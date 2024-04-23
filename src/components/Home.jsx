@@ -53,9 +53,7 @@ const Home = () => {
             I <strong>switched from project management to tech</strong> after
             discovering my passion for programming while delivering
             cybersecurity projects funded by the US Department of State. I{" "}
-            <strong>completed a 12-month coding bootcamp</strong> and I'm now
-            looking for my first role where I can use my skills to create
-            innovative tech solutions.
+            <strong>completed a 12-month coding programme</strong> and currently am working as a Business Applications Developer at St. George's, University of London where I develop and maintain a critical student system.
           </p>
 
           <a href="#projects" className="btn py-4 px-16">
