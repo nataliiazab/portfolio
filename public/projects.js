@@ -40,7 +40,17 @@ const projects = [
     demo: "https://nataliiazab-rock-paper-scissors.netlify.app/",
     github: "https://github.com/nataliiazab/rock-paper-scissors",
     type: "personal project",
-  }
+  },
+  {
+    id: 5,
+    name: "Educational Website Template",
+    description:
+      "A website template has been designed for educational institutions or programmes, which has been built using React and Vite technologies. It is fully responsive and functional, and includes various sections such as Programmes, About, Campus Life, Testimonials, and Contact, making it perfect for showcasing various aspects of an educational institution. It also comes equipped with a built-in video player and a contact form, using Formspree.",
+    image: "./images/educational-website.png",
+    demo: "https://nataliiazab-educational-website.netlify.app/",
+    github: "https://github.com/nataliiazab/educational-website",
+    type: "personal project",
+  },
 ];
 
 export default projects;
