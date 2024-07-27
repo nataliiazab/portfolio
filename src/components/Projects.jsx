@@ -26,43 +26,58 @@ const Projects = () => {
                 itemScope
                 itemType="http://schema.org/WebPage"
               >
-                {" "}
                 <img
-                  className="transform transition-transform hover:scale-105 rounded"
+                  className="transform transition-transform hover:scale-105 rounded shadow-lg"
                   src={project.image}
                   alt={project.name}
                   width={940}
                   height={788}
-                  loading="lazy" // Lazy load images
+                  loading="lazy" 
                 />
               </a>
 
               <div className="md:w-10/12 text-center md:text-left px-2">
-                <h1 className="text-2xl font-bold mb-6" itemProp="name">
+                <h1 className="text-2xl font-bold mb-4" itemProp="name">
                   {project.name}
                 </h1>
-                <p className="  text-light  mb-4  ">
-                  <span className="rounded bg-slate-300 py-2 px-4 text-left uppercase ">
+
+                <p className="text-light mb-4">
+                  <span className="bg-slate-200 py-2 px-4 rounded text-sm uppercase font-semibold text-gray-700">
                     {project.type}
                   </span>
                 </p>
+
                 <p
-                  className="text-lg text-[#666] leading-6 mb-6"
+                  className="text-lg text-gray-700 leading-6 mb-6"
                   itemProp="description"
                 >
                   {project.description}
                 </p>
                 {project.type === "group project" && (
                   <p
-                    className="text-lg text-[#666] leading-6 mb-6"
+                    className="text-lg text-gray-700 leading-6 mb-6"
                     itemProp="myContribution"
                   >
                     {project.myContribution}
                   </p>
                 )}
-                <div className="flex justify-between">
+
+                <div className="text-light mb-6">
+                  <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+                    {project.skills.map((skill) => (
+                      <span
+                        className="bg-slate-200 border border-slate-300 rounded py-1 px-3 text-sm font-medium text-gray-700 shadow-sm"
+                        key={skill}
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="flex justify-center md:justify-start gap-4">
                   <a
-                    className="btn py-3 px-7"
+                    className="btn py-2 px-6 bg-blue-500 text-white rounded hover:bg-blue-600"
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -70,7 +85,7 @@ const Projects = () => {
                     Demo
                   </a>
                   <a
-                    className="btn py-3 px-7 bg-white border-2 border-purple-600 text-purple-600 hover:bg-purple-200"
+                    className="btn py-2 px-6 bg-white border-2 border-purple-600 text-purple-600 rounded hover:bg-purple-50"
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"

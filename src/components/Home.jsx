@@ -24,7 +24,7 @@ const Home = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
         >
-          <h1 className="text-primary text-5xl font-extrabold tracking-wider mb-8">
+          <h1 className="text-primary text-4xl md:text-5xl font-extrabold tracking-wider mb-4 md:mb-8">
             HEY, I'M NATALIE ZABLOTSKA
           </h1>
           <TypeAnimation
@@ -43,13 +43,13 @@ const Home = () => {
             wrapper="span"
             speed={50}
             style={{
-              fontSize: "2rem",
+              fontSize: "1.5rem",
               display: "inline-block",
             }}
             repeat={Infinity}
-            className="font-semibold text-transparent leading-10 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
+            className="font-semibold text-transparent leading-10 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 md:text-2xl"
           />
-          <p className="text-light text-xl my-8 leading-relaxed">
+          <p className="text-light text-lg md:text-xl my-4 md:my-8 leading-relaxed">
             As a Business Applications Developer at St George's University of
             London, I contribute to the development and maintenance of their
             student information system.
@@ -61,37 +61,44 @@ const Home = () => {
             >
               Trafalgar Girls
             </a>{" "}
-            and CodeYourFuture, where I enhance my coding skills and
-            contribute to meaningful projects.
+            and CodeYourFuture, where I enhance my coding skills and contribute
+            to meaningful projects.
             <br />
-            <br />I completed a 12-month coding programme and actively engage with
-            the tech community through events.
+            <br />I completed a 12-month coding programme and actively engage
+            with the tech community through events.
           </p>
           <a
             href="#projects"
-            className="btn py-4 px-16 bg-gradient-to-r from-purple-400 to-pink-600 text-white rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105"
+            className="btn py-3 px-8 md:py-4 md:px-16 bg-gradient-to-r from-purple-400 to-pink-600 text-white rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105"
           >
             View Projects
           </a>
         </motion.div>
       </div>
 
-      {/* Hero social-media */}
-      <div className="bg-white w-20 rounded py-1 px-2 absolute left-0 top-48 hidden md:block">
+      <div className="bg-white w-16 md:w-20 rounded py-1 px-2 absolute left-0 top-32 md:top-48 hidden md:block">
         <div className="py-1">
           <a
             href="https://www.linkedin.com/in/nataliia-zablotska/"
-            className="p-3 hover:bg-slate-400 block rounded transition-all duration-500"
+            className="p-2 md:p-3 hover:bg-slate-400 block rounded transition-all duration-500"
           >
-            <img src={LinkedInIcon} alt="LinkedIn" className="w-10 h-10" />
+            <img
+              src={LinkedInIcon}
+              alt="LinkedIn"
+              className="w-8 md:w-10 h-8 md:h-10"
+            />
           </a>
         </div>
         <div className="py-1">
           <a
             href="https://github.com/nataliiazab"
-            className="p-3 hover-bg-slate-400 block rounded transition-all duration-500"
+            className="flex items-center justify-center p-2 md:p-3 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-600 hover:shadow-xl transition-transform transform-gpu duration-300 ease-in-out"
           >
-            <img src={GitHubIcon} alt="GitHub" className="w-10 h-10" />
+            <img
+              src={GitHubIcon}
+              alt="GitHub"
+              className="w-6 md:w-8 h-6 md:h-8"
+            />
           </a>
         </div>
       </div>
