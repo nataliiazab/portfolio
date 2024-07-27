@@ -35,7 +35,7 @@ const projects = [
     id: 4,
     name: "Rock, Paper, Scissors Game",
     description:
-      "I've built a simple Rock, Paper, Scissors game built using HTML, CSS, JavaScript and DOM. The game allows two players to enter their names, make their choices, and see the winner's result",
+      "It is a straightforward game built with HTML, CSS, and JavaScript. I developed the game during the Women's Coding Day hackathon organised by Le Wagon London, this project allows two players to enter their names, make choices, and view the result dynamically. The game features responsive design for both desktop and mobile devices, with animated elements to enhance engagement. JavaScript handles the core functionality, including random choice generation and result determination.",
     image: "./images/Rock-Paper-Scissors-Game.png",
     demo: "https://nataliiazab-rock-paper-scissors.netlify.app/",
     github: "https://github.com/nataliiazab/rock-paper-scissors",
@@ -45,7 +45,7 @@ const projects = [
     id: 5,
     name: "Educational Website Template",
     description:
-      "A website template has been designed for educational institutions or programmes, which has been built using React and Vite technologies. It is fully responsive and functional, and includes various sections such as Programmes, About, Campus Life, Testimonials, and Contact, making it perfect for showcasing various aspects of an educational institution. It also comes equipped with a built-in video player and a contact form, using Formspree.",
+      "Developed a fully responsive educational website using React and Vite. The website includes sections like Programmes, About, Campus Life, Testimonials, and Contact, making it easy for users to navigate through the sections. It features a built-in video player and a contact form integrated with Formspree for user feedback",
     image: "./images/educational-website.png",
     demo: "https://nataliiazab-educational-website.netlify.app/",
     github: "https://github.com/nataliiazab/educational-website",
