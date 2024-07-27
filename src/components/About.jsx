@@ -32,24 +32,31 @@ const About = () => {
           <div className="md:w-10/12 text-lg text-[#666] mb-8">
             <p className="mb-5">
               I'm Natalie, a <strong>Full Stack Developer</strong> with a
-              passion for using technology to solve real-world problems.  
-              I led cybersecurity projects funded by the U.S. government and configured a critical student system at St. George's, University of London.I am particularly proud of leading a project that trained
-              70+ Ukrainian veterans to become cybersecurity professionals -{" "}
+              passion for using technology to solve real-world problems. I led
+              cybersecurity projects funded by the U.S. government and
+              configured a critical student system at St. George's, University
+              of London. I am particularly proud of leading a project that
+              trained 70+ Ukrainian veterans to become cybersecurity
+              professionals -{" "}
               <a
                 href="https://www.crdfglobal.org/insights/cybersecurity-gives-me-opportunity-continue-path-defender/"
                 className="text-secondary font-bold underline"
               >
                 CyberDefenders
               </a>
-              . </p>
-              
+              .{" "}
+            </p>
+
             <p className="mb-5">
-              My experience includes full-stack development (CodeYourFuture), business applications support (St. George's), and project management (CRDF Global). I have strong analytical skills, gained through M.Sc. in Business Economics and Analytics.
+              My experience includes full-stack development (CodeYourFuture),
+              business applications support (St. George's), and project
+              management (CRDF Global). I have strong analytical skills, gained
+              through M.Sc. in Business Economics and Analytics.
             </p>
             <p className="mb-5">
-              In <strong>CodeYourFuture</strong> (CYF), a 12-month bootcamp, I
-              learned the full stack development process and collaborated with a
-              diverse group of developers. As part of my final project, I
+              In <strong>CodeYourFuture</strong> (CYF), a 12-month coding
+              programme, I learned the full stack development and collaborated
+              with a diverse group of developers. As part of my final project, I
               co-developed the{" "}
               <a
                 href="https://good-pr.vercel.app/"
@@ -57,15 +64,18 @@ const About = () => {
               >
                 Good PR App
               </a>
-              , which resulted in an invitation to join a CYF product team. In my spare time, I attend <strong>tech events</strong>{" "}
-              and build <strong>personal projects</strong> to stay up-to-date on
-              the latest technologies. I'm always looking for new ways to
+              , which resulted in an invitation to join a CYF product team. In
+              my spare time, I attend <strong>tech events</strong> and build{" "}
+              <strong>personal projects</strong> to stay up-to-date on the
+              latest technologies. I'm always looking for new ways to
               <strong> learn and grow</strong> as a developer.
             </p>
             <p className="mb-5">
               I'm looking for a{" "}
-              <strong>junior-level full-stack or front-end developer role</strong> where I can
-              learn, grow and make a difference. Connect with me on{" "}
+              <strong>
+                junior-level full-stack or front-end developer role
+              </strong>{" "}
+              where I can learn, grow and make a difference. Connect with me on{" "}
               <a
                 href="https://www.linkedin.com/feed/"
                 className="text-secondary font-bold underline"
