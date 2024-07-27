@@ -49,18 +49,33 @@ const Home = () => {
             repeat={Infinity}
             className="font-semibold text-transparent leading-10 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
           />
-          <p className="text-light text-xl my-8">
-            I <strong>switched from project management to tech</strong> after
-            discovering my passion for programming while delivering
-            cybersecurity projects funded by the US Department of State. I{" "}
-            <strong>completed a 12-month coding programme</strong> and currently am working as a Business Applications Developer at St. George's, University of London where I develop and maintain a critical student system.
+          <p className="text-light text-xl my-8 leading-relaxed">
+            As a Business Applications Developer at St George's University of
+            London, I contribute to the development and maintenance of their
+            student information system.
+            <br />
+            <br />I volunteer as a full-stack developer for nonprofits like{" "}
+            <a
+              href="https://github.com/enBloc-org/kindly/tree/dev"
+              className="text-blue-500 underline"
+            >
+              Trafalgar Girls
+            </a>{" "}
+            and CodeYourFuture, where I enhance my coding skills and
+            contribute to meaningful projects.
+            <br />
+            <br />I completed a 12-month coding programme and actively engage with
+            the tech community through events.
           </p>
-
-          <a href="#projects" className="btn py-4 px-16">
-            Projects
+          <a
+            href="#projects"
+            className="btn py-4 px-16 bg-gradient-to-r from-purple-400 to-pink-600 text-white rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105"
+          >
+            View Projects
           </a>
         </motion.div>
       </div>
+
       {/* Hero social-media */}
       <div className="bg-white w-20 rounded py-1 px-2 absolute left-0 top-48 hidden md:block">
         <div className="py-1">
