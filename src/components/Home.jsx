@@ -10,10 +10,10 @@ const Home = () => {
   return (
     <div className="hero my-8 md:py-8 px-7 relative" id="home">
       <Helmet>
-        <title>Natalie Zablotska - Full Stack Developer</title>
+        <title>Natalie Zablotska - Full-Stack Developer</title>
         <meta
           name="description"
-          content="Natalie Zablotska is a Full Stack Developer with a background in project management, passionate about creating innovative tech solutions. Discover her journey and projects."
+          content="Natalie Zablotska is a Full-Stack Developer with a background in project management, passionate about creating innovative tech solutions. Discover her journey and projects."
         />
       </Helmet>
       <div className="h-screen flex items-center justify-center">
@@ -25,15 +25,15 @@ const Home = () => {
           viewport={{ once: false, amount: 0.7 }}
         >
           <h1 className="text-primary text-4xl md:text-5xl font-extrabold tracking-wider mb-4 md:mb-8">
-            HEY, I'M NATALIE ZABLOTSKA
+            HEY, I'M NATALIIA ZABLOTSKA
           </h1>
           <TypeAnimation
             sequence={[
-              "Full Stack Developer",
+              "Full-Stack Developer",
               1000,
               "Software Engineer",
               1000,
-              "Frontend Developer",
+              "Front-End Developer",
               1000,
               "React Developer",
               1000,

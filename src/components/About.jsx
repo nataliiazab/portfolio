@@ -9,10 +9,10 @@ const About = () => {
   return (
     <div className="max-w-7xl mx-auto my-14 md:py-8 px-7" id="about">
       <Helmet>
-        <title>About Me - Full Stack Developer</title>
+        <title>About Me - Full-Stack Developer</title>
         <meta
           name="description"
-          content="Learn about Natalie, a Full Stack Developer with a background in project management and a passion for technology. Find her skills and aspirations."
+          content="Learn about Nataliia, a Full-Stack Developer with a background in project management and a passion for technology. Find her skills and aspirations."
         />
       </Helmet>
       <Headline
@@ -31,7 +31,7 @@ const About = () => {
           <h1 className="text-2xl font-bold mb-8">Get to know me!</h1>
           <div className="md:w-10/12 text-lg text-[#666] mb-8">
             <p className="mb-5">
-              I'm Natalie, a <strong>Full Stack Developer</strong> with a
+              I'm Nataliia, a <strong>Full-Stack Developer</strong> with a
               passion for using technology to solve real-world problems. I led
               cybersecurity projects funded by the U.S. government and
               configured a critical student system at St. George's, University
@@ -55,7 +55,7 @@ const About = () => {
             </p>
             <p className="mb-5">
               In <strong>CodeYourFuture</strong> (CYF), a 12-month coding
-              programme, I learned the full stack development and collaborated
+              programme, I learned the full-stack development and collaborated
               with a diverse group of developers. As part of my final project, I
               co-developed the{" "}
               <a
