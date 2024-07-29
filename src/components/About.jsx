@@ -9,15 +9,15 @@ const About = () => {
   return (
     <div className="max-w-7xl mx-auto my-14 md:py-8 px-7" id="about">
       <Helmet>
-        <title>About Me - Full-Stack Developer</title>
+        <title>Nataliia Zablotska</title>
         <meta
           name="description"
-          content="Learn about Nataliia, a Full-Stack Developer with a background in project management and a passion for technology. Find her skills and aspirations."
+          content="Learn about Nataliia"
         />
       </Helmet>
       <Headline
         title="ABOUT ME"
-        subtitle="This is a brief overview of my background and my tech skills."
+        subtitle="This is a brief overview of background and tech skills."
       />
 
       <div className="flex flex-col md:flex-row items-start justify-start">
