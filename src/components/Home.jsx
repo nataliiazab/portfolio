@@ -25,7 +25,7 @@ const Home = () => {
           viewport={{ once: false, amount: 0.7 }}
         >
           <h1 className="text-primary text-4xl md:text-5xl font-extrabold tracking-wider mb-4 md:mb-8">
-            HEY, I'M NATALIIA ZABLOTSKA
+            HI👋, I'M NATALIIA ZABLOTSKA
           </h1>
           <TypeAnimation
             sequence={[
@@ -61,8 +61,15 @@ const Home = () => {
             >
               Trafalgar Girls
             </a>{" "}
-            and CodeYourFuture, where I enhance my coding skills and contribute
-            to meaningful projects.
+            and{" "}
+            <a
+              href="https://codeyourfuture.io/"
+              className="text-blue-500 underline"
+            >
+              CodeYourFuture
+            </a>{" "}
+            , where I enhance my coding skills and contribute to meaningful
+            projects.
             <br />
             <br />I completed a 12-month coding programme and actively engage
             with the tech community through events.

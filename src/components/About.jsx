@@ -17,7 +17,7 @@ const About = () => {
       </Helmet>
       <Headline
         title="ABOUT ME"
-        subtitle="This is a brief overview of background and tech skills."
+        subtitle="This is a brief overview of my background and tech skills."
       />
 
       <div className="flex flex-col md:flex-row items-start justify-start">
