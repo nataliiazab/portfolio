@@ -67,13 +67,12 @@ const About = () => {
               , which resulted in an invitation to join a CYF product team. In
               my spare time, I attend <strong>tech events</strong> and build{" "}
               <strong>personal projects</strong> to stay up-to-date on the
-              latest technologies. I'm always looking for new ways to
-              <strong> learn and grow</strong> as a developer.
+              latest technologies. 
             </p>
             <p className="mb-5">
               I'm looking for a{" "}
               <strong>
-                junior-level full-stack or front-end developer role
+               full-stack or front-end developer role
               </strong>{" "}
               where I can learn, grow and make a difference. Connect with me on{" "}
               <a
