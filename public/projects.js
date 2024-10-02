@@ -14,6 +14,19 @@ const projects = [
   },
   {
     id: 2,
+    name: "Donation Website for The Big Alliance (Hackathon Project)",
+    skills: ["Next.js", "TypeScript", "Prisma", "NextAuth"],
+    description:
+      "A charity donation platform built for The Big Alliance during a team-based hackathon, to facilitate both individual and corporate donations. Features include campaign management, PayPal payments, and secure authentication using NextAuth.",
+    myContribution:
+      "Led front-end development, designing and building key pages (Home, Campaign, Donation) for both mobile and desktop users. Optimised Next.js routing, integrated API endpoints, and managed dynamic props. Handled collaboration via Miro and conducted code reviews.",
+    image: "./images/big-alliance.png",
+    demo: "https://codeathon-team1.vercel.app/",
+    github: "https://github.com/nataliiazab/codeathon-team1",
+    type: "group project",
+  },
+  {
+    id: 3,
     name: "Country Explorer",
     skills: ["React", "JavaScript", "CSS"],
     description:
@@ -24,7 +37,7 @@ const projects = [
     type: "personal project",
   },
   {
-    id: 3,
+    id: 4,
     name: "Barbie Movie Quiz App",
     skills: ["React", "JavaScript", "CSS"],
     description:
@@ -35,7 +48,7 @@ const projects = [
     type: "personal project",
   },
   {
-    id: 4,
+    id: 5,
     name: "Rock, Paper, Scissors Game",
     skills: ["HTML", "CSS", "JavaScript"],
     description:
@@ -46,7 +59,7 @@ const projects = [
     type: "personal project",
   },
   {
-    id: 5,
+    id: 6,
     name: "Educational Website Template",
     skills: ["HTML", "CSS", "JavaScript", "Vite", "React"],
     description:
