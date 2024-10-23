@@ -8,7 +8,7 @@ const projects = [
     myContribution:
       "Contributed to both frontend and backend development, with key achievements including the integration of GitHub APIs to track pull requests and issue metrics, and the implementation of dynamic data visualisations using ‘Chart.js’ and ‘Echarts’.",
     image: "./images/good-pr.png",
-    demo: "https://good-pr.vercel.app/",
+    demo: "https://goodpr.staging.codeyourfuture.io/",
     github: "https://github.com/nataliiazab/good-pr",
     type: "group project",
   },
