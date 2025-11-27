@@ -1,4 +1,3 @@
-import React from "react";
 import { Helmet } from "react-helmet";
 import Headline from "../shared/Headline";
 import skills from "../../public/skills.js";
@@ -37,12 +36,15 @@ const About = () => {
             </p>
 
             <p className="mb-5">
-              In my current role, I&apos;ve developed platforms managing
-              hundreds of legal advertising restrictions, delivered key features
-              a month ahead of schedule, and overhauled integration services to
-              resolve critical performance issues. My work spans both frontend
-              interfaces with complex form validation and backend services
-              integrating with <strong>Salesforce</strong> and external systems.
+              In my current role, I contributed to major workstreams, including
+              building a platform for enforcing hundreds of advertising
+              restrictions and helping deliver a key commercial feature one
+              months ahead of schedule. I integrated Salesforce and other
+              systems with thorough testing and ran load tests that helped
+              reduce processing times from 30+ seconds to under 5. I also
+              improved team effectiveness by onboarding new colleagues, writing
+              clear documentation, and representing the team across the
+              business.
             </p>
 
             <p className="mb-5">
@@ -68,14 +70,6 @@ const About = () => {
               education, and humanitarian sectors. This background taught me how
               to get things done on time and within budget - skills that serve
               me well in fast-paced development environments.
-            </p>
-
-            <p className="mb-5">
-              I thrive in collaborative environments with excellent team members
-              who love to share knowledge. Whether tackling challenging
-              technical problems solo or with teammates, I enjoy the entire
-              problem-solving process. I&apos;m always looking for opportunities
-              to learn and work with modern tech stacks.
             </p>
           </div>
         </motion.div>

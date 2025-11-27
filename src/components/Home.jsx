@@ -52,7 +52,7 @@ const Home = () => {
             As a Software Engineer at <strong>Bauer Media Outdoor UK</strong>, I
             specialise in full-stack development using Next.js, TypeScript, and
             NestJS to build an internal tool for one of the UK&apos;s leading
-            Out of Home media companies.
+            Out of Home media companies
             <br />
             <br />I bring a unique combination of{" "}
             <strong>5+ years of project management expertise</strong> together
@@ -62,13 +62,13 @@ const Home = () => {
             </strong>{" "}
             and <strong>2+ years of production-level development work</strong>.
             I am skilled at delivering projects on time, within budget, and
-            exceeding expectations (where possible).
+            exceeding expectations (where possible)
           </p>
 
           <p className="text-light text-lg md:text-xl mb-8 leading-relaxed">
             I thrive working with organisations that foster excellent company
             culture, utilise modern technology stacks, and offer genuine
-            opportunities for professional growth and continuous learning.
+            opportunities for professional growth and continuous learning
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             <a
