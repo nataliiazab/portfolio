@@ -1,4 +1,3 @@
-import React from "react";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
 import LinkedInIcon from "../assets/social-media-icons/LinkedIn.svg";
@@ -25,7 +24,7 @@ const Home = () => {
           viewport={{ once: false, amount: 0.7 }}
         >
           <h1 className="text-primary text-4xl md:text-5xl font-extrabold tracking-wider mb-4 md:mb-8">
-            HI👋, I'M NATALIIA ZABLOTSKA
+            HI👋, I&apos;M NATALIIA ZABLOTSKA
           </h1>
           <TypeAnimation
             sequence={[
@@ -35,9 +34,9 @@ const Home = () => {
               1000,
               "Full-Stack Developer",
               1000,
-              "Tech Leader",
+              "JavaScript Developer",
               1000,
-              "Innovation Driver",
+              "TypeScript Developer",
               1000,
             ]}
             wrapper="span"
