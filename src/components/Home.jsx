@@ -10,10 +10,10 @@ const Home = () => {
   return (
     <div className="hero my-8 md:py-8 px-7 relative" id="home">
       <Helmet>
-        <title>Natalie Zablotska - Full-Stack Developer</title>
+        <title>Nataliia Zablotska - Software Engineer</title>
         <meta
           name="description"
-          content="Natalie Zablotska is a Full-Stack Developer with a background in project management, passionate about creating innovative tech solutions. Discover her journey and projects."
+          content="Nataliia Zablotska - Software Engineer who delivers results ahead of schedule. 5+ years project management expertise combined with commercial engineering experience. Proven track record with £400k+ projects and high-impact solutions at Bauer Media UK."
         />
       </Helmet>
       <div className="h-screen flex items-center justify-center">
@@ -29,15 +29,15 @@ const Home = () => {
           </h1>
           <TypeAnimation
             sequence={[
-              "Full-Stack Developer",
-              1000,
               "Software Engineer",
               1000,
-              "Front-End Developer",
+              "Problem Solver",
               1000,
-              "React Developer",
+              "Full-Stack Developer",
               1000,
-              "JavaScript Developer",
+              "Tech Leader",
+              1000,
+              "Innovation Driver",
               1000,
             ]}
             wrapper="span"
@@ -50,36 +50,41 @@ const Home = () => {
             className="font-semibold text-transparent leading-10 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 md:text-2xl"
           />
           <p className="text-light text-lg md:text-xl my-4 md:my-8 leading-relaxed">
-            As a Business Applications Developer at St George's University of
-            London, I contribute to the development and maintenance of their
-            student information system.
+            As a Software Engineer at <strong>Bauer Media Outdoor UK</strong>, I
+            specialise in full-stack development using Next.js, TypeScript, and
+            NestJS to build an internal tool for one of the UK&apos;s leading
+            Out of Home media companies.
             <br />
-            <br />I volunteer as a full-stack developer for nonprofits like{" "}
-            <a
-              href="https://github.com/enBloc-org/kindly/tree/dev"
-              className="text-blue-500 underline"
-            >
-              Trafalgar Girls
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://codeyourfuture.io/"
-              className="text-blue-500 underline"
-            >
-              CodeYourFuture
-            </a>{" "}
-            , where I enhance my coding skills and contribute to meaningful
-            projects.
-            <br />
-            <br />I completed a 12-month coding programme and actively engage
-            with the tech community through events.
+            <br />I bring a unique combination of{" "}
+            <strong>5+ years of project management expertise</strong> together
+            with{" "}
+            <strong>
+              1+ year of commercial software engineering experience
+            </strong>{" "}
+            and <strong>2+ years of production-level development work</strong>.
+            I am skilled at delivering projects on time, within budget, and
+            exceeding expectations (where possible).
           </p>
-          <a
-            href="#projects"
-            className="btn py-3 px-8 md:py-4 md:px-16 bg-gradient-to-r from-purple-400 to-pink-600 text-white rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105"
-          >
-            View Projects
-          </a>
+
+          <p className="text-light text-lg md:text-xl mb-8 leading-relaxed">
+            I thrive working with organisations that foster excellent company
+            culture, utilise modern technology stacks, and offer genuine
+            opportunities for professional growth and continuous learning.
+          </p>
+          <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
+            <a
+              href="#projects"
+              className="btn py-3 px-8 md:py-4 md:px-12 bg-gradient-to-r from-purple-400 to-pink-600 text-white rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105 font-semibold"
+            >
+              See My Impact 🚀
+            </a>
+            <a
+              href="#contact"
+              className="btn py-3 px-8 md:py-4 md:px-12 border-2 border-purple-400 text-purple-400 rounded-lg hover:bg-purple-400 hover:text-white transition-all duration-300 font-semibold"
+            >
+              Let&apos;s Connect 💬
+            </a>
+          </div>
         </motion.div>
       </div>
 

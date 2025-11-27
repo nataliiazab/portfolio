@@ -10,10 +10,7 @@ const About = () => {
     <div className="max-w-7xl mx-auto my-14 md:py-8 px-7" id="about">
       <Helmet>
         <title>Nataliia Zablotska</title>
-        <meta
-          name="description"
-          content="Learn about Nataliia"
-        />
+        <meta name="description" content="Learn about Nataliia" />
       </Helmet>
       <Headline
         title="ABOUT ME"
@@ -31,57 +28,54 @@ const About = () => {
           <h1 className="text-2xl font-bold mb-8">Get to know me!</h1>
           <div className="md:w-10/12 text-lg text-[#666] mb-8">
             <p className="mb-5">
-              I'm Nataliia, a <strong>Full-Stack Developer</strong> with a
-              passion for using technology to solve real-world problems. I led
-              cybersecurity projects funded by the U.S. government and
-              configured a critical student system at St. George's, University
-              of London. I am particularly proud of leading a project that
-              trained 70+ Ukrainian veterans to become cybersecurity
-              professionals -{" "}
+              I&apos;m Nataliia, a <strong>Software Engineer</strong> currently
+              working at <strong>Bauer Media Outdoor UK</strong>, one of the
+              UK&apos;s leading Out of Home media companies. I specialize in
+              building scalable web applications using modern technologies like{" "}
+              <strong>Next.js</strong>, <strong>TypeScript</strong>, and{" "}
+              <strong>NestJS</strong>.
+            </p>
+
+            <p className="mb-5">
+              In my current role, I&apos;ve developed platforms managing
+              hundreds of legal advertising restrictions, delivered key features
+              a month ahead of schedule, and overhauled integration services to
+              resolve critical performance issues. My work spans both frontend
+              interfaces with complex form validation and backend services
+              integrating with <strong>Salesforce</strong> and external systems.
+            </p>
+
+            <p className="mb-5">
+              Beyond commercial work, I&apos;m passionate about{" "}
+              <strong>social impact technology</strong>. I&apos;ve contributed
+              to open-source projects supporting Ukrainian refugees and
+              empowering individuals from disadvantaged backgrounds through{" "}
+              <strong>CodeYourFuture</strong>. I&apos;m particularly proud of
+              leading a project that trained 80+ Ukrainian veterans in
+              cybersecurity -{" "}
               <a
                 href="https://www.crdfglobal.org/insights/cybersecurity-gives-me-opportunity-continue-path-defender/"
                 className="text-secondary font-bold underline"
               >
                 CyberDefenders
               </a>
-              .{" "}
+              .
             </p>
 
             <p className="mb-5">
-              My experience includes full-stack development (CodeYourFuture),
-              business applications support (St. George's), and project
-              management (CRDF Global). I have strong analytical skills, gained
-              through M.Sc. in Business Economics and Analytics.
+              My journey into tech began after a successful career in{" "}
+              <strong>project management</strong> across cybersecurity,
+              education, and humanitarian sectors. This background taught me how
+              to get things done on time and within budget - skills that serve
+              me well in fast-paced development environments.
             </p>
+
             <p className="mb-5">
-              In <strong>CodeYourFuture</strong> (CYF), a 12-month coding
-              programme, I learned the full-stack development and collaborated
-              with a diverse group of developers. As part of my final project, I
-              co-developed the{" "}
-              <a
-                href="https://good-pr.vercel.app/"
-                className="text-secondary font-bold underline"
-              >
-                Good PR App
-              </a>
-              , which resulted in an invitation to join a CYF product team. In
-              my spare time, I attend <strong>tech events</strong> and build{" "}
-              <strong>personal projects</strong> to stay up-to-date on the
-              latest technologies. 
-            </p>
-            <p className="mb-5">
-              I'm looking for a{" "}
-              <strong>
-               full-stack or front-end developer role
-              </strong>{" "}
-              where I can learn, grow and make a difference. Connect with me on{" "}
-              <a
-                href="https://www.linkedin.com/feed/"
-                className="text-secondary font-bold underline"
-              >
-                LinkedIn
-              </a>
-              !
+              I thrive in collaborative environments with excellent team members
+              who love to share knowledge. Whether tackling challenging
+              technical problems solo or with teammates, I enjoy the entire
+              problem-solving process. I&apos;m always looking for opportunities
+              to learn and work with modern tech stacks.
             </p>
           </div>
         </motion.div>
